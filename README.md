@@ -132,7 +132,7 @@ Open balenaâ€™s backend services, composed of battle-tested components that weâ€
 With open balena, we want to give developers the ability to manage fleets of devices on their own. One of our primary motivations in releasing open balena is to mitigate fears of lock-in and remove barriers to exit (and entry!). We also hope to encourage contributions to the codebase so that users can fix issues and add features themselves. We will continue evolving open balena in lockstep with balenaCloud, with much of our development process taking place in the open, so that together we can keep improving both the open source project and the hosted service.
 
 ### openBalena vs balenaCloud
-![openBalena vs balenaCloud](https://www.hizliresim.com/edl1y1w)
+![Screenshot](openbalenavsbalenacloud.jpeg)
 
 ### Conclusion:
 
