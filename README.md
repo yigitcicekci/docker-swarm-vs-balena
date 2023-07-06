@@ -124,6 +124,16 @@ Use Deploy with Balena: This is a feature that allows you to deploy and share Io
 ### Using Balena for management and updating on several machines
    Balena provides a platform to deploy and manage connected devices. You can use the Balena CLI to configure your application containers, push updates, check status, view logs, and so forth. Balena deploy is functionally very similar to balena push but avoids pushing any source code to the balenaCloud build server. It gives more control over how and where your container images are built, allowing for Balena deploy to be integrated into your own CI/CD build system.
 
+### What is the openBalena?
+Open balena is a platform to deploy and manage connected devices. Devices run balenaOS, a host operating system designed for running containers on IoT devices, and are managed via the balena CLI, which you can use to configure your application containers, push updates, check status, view logs, and so forth.
+
+Open balena’s backend services, composed of battle-tested components that we’ve run in production on balenaCloud for years, can store device information securely and reliably, allow remote management via a built-in VPN service, and efficiently distribute container images to your devices.
+
+With open balena, we want to give developers the ability to manage fleets of devices on their own. One of our primary motivations in releasing open balena is to mitigate fears of lock-in and remove barriers to exit (and entry!). We also hope to encourage contributions to the codebase so that users can fix issues and add features themselves. We will continue evolving open balena in lockstep with balenaCloud, with much of our development process taking place in the open, so that together we can keep improving both the open source project and the hosted service.
+
+### openBalena vs balenaCloud
+![openBalena vs balenaCloud](https://www.hizliresim.com/edl1y1w)
+
 ### Conclusion:
 
    Docker Swarm and Balena are both tools for managing containers, but they have different features and use cases. Docker Swarm is a native clustering solution for Docker that allows you to create and manage a swarm of Docker nodes. Balena is a container engine optimized for IoT devices that integrates with balenaCloud or openBalena for remote device management. Here are some of the main differences between them:
@@ -150,4 +160,19 @@ Cumulocity IoT Platform: We know IoT projects can be complicated. That's why the
 
 ## REFERENCES
 
-https://stackoverflow.com/questions/41175073/running-code-without-ssh-in-beaglebone-black https://stackoverflow.com/questions/44056501/how-can-i-remotely-connect-to-docker-swarm https://www.digitalocean.com/community/tutorials/how-to-create-a-cluster-of-docker-containers-with-docker-swarm-and-digitalocean-on-ubuntu-16-04 https://unix.stackexchange.com/questions/703586/ssh-connect-to-a-docker-container-directly-without-ssh-the-host-first https://docs.docker.com/engine/swarm/admin_guide/ https://docs.docker.com/engine/swarm/ https://docs.docker.com/engine/swarm/services/ https://www.ibm.com/cloud/learn/docker-swarm https://docs.docker.com/engine/swarm/ https://docs.docker.com/engine/swarm/networking/ https://stackshare.io/stackups/balena-vs-docker-swarm-vs-kubernetes https://www.balena.io/ https://www.balena.io/cloud https://www.balena.io/open https://www.balena.io/blog/build-an-environment-and-air-quality-monitor-with-raspberry-pi/ https://www.balena.io/blog/make-a-web-frame-with-raspberry-pi-in-30-minutes/ https://www.balena.io/docs/learn/getting-started/
+https://stackoverflow.com/questions/41175073/running-code-without-ssh-in-beaglebone-black https://stackoverflow.com/questions/44056501/how-can-i-remotely-connect-to-docker-swarm https://www.digitalocean.com/community/tutorials/how-to-create-a-cluster-of-docker-containers-with-docker-swarm-and-digitalocean-on-ubuntu-16-04 
+https://unix.stackexchange.com/questions/703586/ssh-connect-to-a-docker-container-directly-without-ssh-the-host-first 
+https://docs.docker.com/engine/swarm/admin_guide/ 
+https://docs.docker.com/engine/swarm/ 
+https://docs.docker.com/engine/swarm/services/ 
+https://www.ibm.com/cloud/learn/docker-swarm 
+https://docs.docker.com/engine/swarm/ 
+https://docs.docker.com/engine/swarm/networking/ 
+https://stackshare.io/stackups/balena-vs-docker-swarm-vs-kubernetes
+https://www.balena.io/ 
+https://www.balena.io/cloud  
+https://www.balena.io/blog/build-an-environment-and-air-quality-monitor-with-raspberry-pi/ https://www.balena.io/blog/make-a-web-frame-with-raspberry-pi-in-30-minutes/ 
+https://www.balena.io/docs/learn/getting-started/
+https://www.balena.io/open
+https://github.com/balena-io/open-balena
+https://zhuanlan.zhihu.com/p/349867272
